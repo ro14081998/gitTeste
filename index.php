@@ -1,3 +1,7 @@
+<?php   
+#TESTE EM API
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
