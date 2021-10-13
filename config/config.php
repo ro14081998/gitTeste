@@ -1,0 +1,4 @@
+<?php
+#configuracoes do site
+
+?>
