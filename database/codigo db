@@ -1,0 +1,8 @@
+create database testeAPI;
+
+CREATE TABLE clientes(
+id INT NOT NULL AUTO_INCREMENT,
+nome_cliente VARCHAR(40) NOT NULL,
+cpf_cliente VARCHAR(15) NOT NULL,
+primary KEY(id)
+)CHAR SET UTF8;
