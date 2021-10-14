@@ -1,11 +1,13 @@
 <?php
 include_once('../../config/config.php');
-#auto load classes
-#recebendo os dados via "get"
-
-#retornando busca dos dados do cliente
-
-$retorno = new Cliente();
+$retorno = new Requests();
+if($retorno-> buscaDados($_GET['cpf'],$connection)){
+    echo $retorno;
+}
+else 
+{
+    echo "Nao existe esse cliente em nossa base de dados!";
+}
 
 
 

@@ -1,6 +1,7 @@
 <?php   
 #TESTE EM API
 include_once('../config/config.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -12,5 +13,8 @@ include_once('../config/config.php');
 </head>
 <body>
     Site - Teste API busca de cadastros clientes.<br>
+    <?php
+    phpinfo();
+    ?>
 </body>
 </html>
